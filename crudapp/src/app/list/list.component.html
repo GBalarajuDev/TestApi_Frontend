@@ -4,6 +4,7 @@
         <thead>
             <tr>
                 <th>Id</th><th>Name</th><th>DOB</th><th>Location</th>
+                <th>Operations</th>
             </tr>
         </thead>
         <tbody>
@@ -12,6 +13,9 @@
                 <td>{{q.name}}</td>
                 <td>{{q.DOB}}</td>
                 <td>{{q.Location}}</td>
+                <td><a routerLink='/details/{{q.id}}'>
+                    <button class="btn btn-success">view</button>
+                </a></td>
             </tr>
         </tbody>
 
