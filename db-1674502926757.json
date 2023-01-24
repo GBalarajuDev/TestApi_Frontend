@@ -1,0 +1,10 @@
+{
+  "candidateDetails": [
+    {
+      "id": 1,
+      "name": "Gopi",
+      "DOB": "json-server",
+      "Location": "typicode"
+    }
+  ]
+}

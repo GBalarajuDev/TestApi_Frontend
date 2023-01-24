@@ -1,0 +1,16 @@
+{
+  "candidateDetails": [
+    {
+      "id": 1,
+      "name": "Gopi",
+      "DOB": "19-11-1991",
+      "Location": "Bengaluru"
+    },
+    {
+      "id": 2,
+      "name": "Gopi2",
+      "DOB": "14-11-1991",
+      "Location": "Tumkuru"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<p>list works!</p>
+<div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th><th>Name</th><th>DOB</th><th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let q of paper1">
+                <td>{{q.id}}</td>
+                <td>{{q.name}}</td>
+                <td>{{q.DOB}}</td>
+                <td>{{q.Location}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
